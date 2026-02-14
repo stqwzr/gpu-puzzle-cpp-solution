@@ -7,5 +7,5 @@ set(CMAKE_CUDA_STANDARD 17)
 
 set(CMAKE_CUDA_ARCHITECTURES native)
 
-add_executable(puzzle9
-        puzzle9_pooling.cu)
+add_executable(puzzle10
+        puzzle10_dot.cu)
