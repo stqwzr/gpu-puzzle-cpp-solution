@@ -4,13 +4,6 @@ C++ CUDA solutions for [GPU-Puzzles](https://github.com/srush/GPU-Puzzles) by Sa
 
 The original project teaches GPU programming through puzzles using Python and Numba. This repo re-implements all solutions in **native CUDA C++** — closer to the metal, closer to real-world GPU development.
 
-## Why C++ instead of Numba?
-
-- Direct control over memory hierarchy (shared, global, registers)
-- Real CUDA syntax: `__global__`, `__shared__`, `__syncthreads()`
-- Industry-standard toolchain: `nvcc`, `cuda-gdb`, Nsight
-- No Python abstraction layer between you and the GPU
-
 ## Requirements
 
 - NVIDIA GPU (tested on RTX 4090)
