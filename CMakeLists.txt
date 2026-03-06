@@ -7,5 +7,5 @@ set(CMAKE_CUDA_STANDARD 17)
 
 set(CMAKE_CUDA_ARCHITECTURES native)
 
-add_executable(puzzle12
-        puzzle12_prefixsum.cu)
+add_executable(puzzle13
+        puzzle13_axissum.cu)
